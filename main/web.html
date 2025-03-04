@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dripforge.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <!---Navbar--->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <nav class="navbar2">
+        <ul class="nav-links">
+            <li><a href="page1.html">Fashion</a></li>
+            <li><a href="page2.html">Sneaker<a></li>
+            <li><a href="page3.html">Accessories</a></li>
+            <li><a href="#">Shopping Cart</a></li>
+        </ul>
+    </nav>
+
+ 
+ 
+    <div class="slider">
+        <h1 class="main-heading">Dripforge</h1>
+        <div class="slides">
+          <!-- Slide 1 -->
+          <div class="slide">
+            <img src="images/slider3.jpg" alt="Image 1">
+            <div class="slide-text">This is the first slide text!</div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+            <img src="images/slider2.jpg" alt="Image 2">
+            <div class="slide-text">This is the second slide text!</div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="slide">
+            <img src="images/slider1.jpg" alt="Image 3">
+            <div class="slide-text">This is the third slide text!</div>
+          </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+
+
+   <main class="main-content">
+     <section class="hero-section">
+        <div class="hero-content">
+         <h2>Forge Your Style</h2>
+         <p>Discover the latest in streetwear fashion</p>
+       </div>
+     </section>
+   </main>
+       
+        
+        <section class="featured-products" style="margin-top: 2rem;"> 
+            <h2>Featured Collections</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/streetwear.png" alt="Streetwear Collection">
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Elite Collection</h3>
+                        <p>Premium streetwear for the bold</p>
+                        <span class="price">$79.99</span>
+                        <a href="page1.html" class="shop-now-btn">Shop Now</a>
+                        
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/sneaker.png" alt="Sneakers Collection">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sneaker Series</h3>
+                        <p>Limited edition footwear</p>
+                        <span class="price">$99.99</span>
+                        <a href="page2.html" class="shop-now-btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/drip.png" alt="Accessories Collection">
+                    </div>
+                    <div class="product-info">
+                        <h3>Drip Accessories</h3>
+                        <p>Complete your look</p>
+                        <span class="price">$89.99</span>
+                        <a href="page3.html" class="shop-now-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-content">
+                <h2>About Dripforge</h2>
+                <p>We are more than just a fashion brand - we're a movement. At Dripforge, we blend street culture with
+                    high fashion to create unique pieces that make you stand out.</p>
+                <button class="learn-more-btn">Learn More</button>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to get exclusive deals and early access to new drops</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>123 Fashion Street</p>
+                <p>Style District</p>
+                <p>New York, NY 10001</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@fashionstore.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Feedback</h3>
+                <form class="feedback-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Feedback</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

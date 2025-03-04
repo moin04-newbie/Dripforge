@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .cart-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+      
+      .cart-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .cart-item {
+        padding: 1rem;
+        border: 1px solid #14281D;
+        border-radius: 0.5rem;
+        background: #333333;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        color: white;
+      }
+      
+      .cart-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      .item-details {
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      
+      .item-price {
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      .cart-item button {
+        width: 100%;
+        background-color: #fffcdc;
+        color: #14281D;
+        border: none;
+        transition: all 0.3s ease;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .cart-item button:hover {
+        background-color: #3af610;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .cart-item button:active {
+        transform: translateY(0);
+      }
+
+      .page-header {
+        text-align: center;
+        margin: 2rem 0 3rem 0;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #14281D;
+      }
+
+      .page-header h1 {
+        font-size: 2.5rem;
+        color: #14281D;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      .page-header .subtitle {
+        color: #666;
+        font-size: 1.1rem;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-wrapper">
+      <div class="page-header">
+        <h1>Featured Collection</h1>
+        <p class="subtitle">Discover our exclusive designs</p>
+      </div>
+      <div class="cart-container">
+        <div class="cart-item">
+          <img src="assets2/boi1.jpg" alt="Overhold" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Overhold</h3>
+            <p class="item-price text-muted-foreground">$15.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+        
+        <div class="cart-item">
+          <img src="assets2/gorl1.jpg" alt="Ronstring" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Ronstring</h3>
+            <p class="item-price text-muted-foreground">$22.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+        
+        <div class="cart-item">
+          <img src="assets2/boi2.jpg" alt="Solarbreeze" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Solarbreeze</h3>
+            <p class="item-price text-muted-foreground">$24.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+        
+        <div class="cart-item">
+          <img src="assets2/gorl2.jpg" alt="Voltsillam" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Voltsillam</h3>
+            <p class="item-price text-muted-foreground">$18.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-container">
+        <div class="cart-item">
+          <img src="assets2/boi3.jpg" alt="Solarbreeze" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Regale</h3>
+            <p class="item-price text-muted-foreground">$10.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="assets2/gorl3.jpg" alt="Solarbreeze" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Prestira</h3>
+            <p class="item-price text-muted-foreground">$30.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="assets2/boi4.jpg" alt="Solarbreeze" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Sovrano</h3>
+            <p class="item-price text-muted-foreground">$22.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="assets2/gorl4.jpg" alt="Solarbreeze" />
+          <div class="item-details">
+            <h3 class="text-lg font-semibold">Opulenze</h3>
+            <p class="item-price text-muted-foreground">$20.99</p>
+            <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded mt-2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
