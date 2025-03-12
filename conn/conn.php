@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "database";
+$db = "ecommerce_db";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$db", $username, $password);
@@ -11,5 +11,4 @@ try {
 } catch (PDOException $e) {
     echo "Failed " . $e->getMessage();
 }
-
 ?>

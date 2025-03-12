@@ -1,0 +1,8 @@
+# Enable PHP execution for files with .html extension
+AddType application/x-httpd-php .php .html
+
+# Set default index files
+DirectoryIndex index.php index.html
+
+# Ensure UTF-8 encoding
+AddDefaultCharset UTF-8
